@@ -1,149 +1,212 @@
+<div align="center">
+
 # 🎓 CEDU AI Masterclass — 기초 과정
 
-## "AI에게 글을 시키다"
+### *"AI에게 글을 시키다"*
 
-> 영어학원 원장을 위한 AI 실전 활용 12강 | Gemini + Google Workspace
-> 코딩 없이, 프롬프트만으로 학원 운영 문서를 자동화합니다.
+**영어학원 원장을 위한 AI 실전 활용 12강 · 코딩 없이 학원 운영을 자동화한다**
 
----
+[![Lectures](https://img.shields.io/badge/강의-12강-6366f1?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/01_branding.ipynb)
+[![Gemini](https://img.shields.io/badge/AI-Gemini_2.5_Flash-22d3ee?style=for-the-badge&logo=google)](https://aistudio.google.com/)
+[![Colab](https://img.shields.io/badge/Platform-Google_Colab-a78bfa?style=for-the-badge&logo=googlecolab)](https://colab.research.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-fbbf24?style=for-the-badge)](LICENSE)
+[![Level](https://img.shields.io/badge/Level-No_Code-fb7185?style=for-the-badge&logo=notion)](https://github.com/Reasonofmoon/cedu-1)
 
-## 📖 이 과정에서 배우는 것
+<br/>
 
-| 역량 | 설명 |
-|---|---|
-| 🎯 프롬프트 엔지니어링 | RTF+C 프레임워크로 AI에게 정확히 지시하기 |
-| 📝 문서 자동화 | 브랜드브리프, 상담자료, 시험지, 리포트를 AI로 생성 |
-| 📊 데이터 활용 | Google Sheets로 성적 분석, 위험 감지, KPI 관리 |
-| 🤖 AI 도구 연동 | Gemini, Claude, NotebookLM, Canva AI 활용법 |
+> **"학원을 운영한다는 것은 하루에 수십 개의 문서를 생산한다는 뜻이다."**
+> CEDU AI Masterclass는 그 문서들을 **AI에게 위임**하는 실전 훈련 시스템이다.
+> 브랜딩 · 상담 · 시험지 · 피드백 · 재등록 · 통합 대시보드까지 — **12강, 12개 자동화.**
 
----
+[🚀 01강 바로 시작](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/01_branding.ipynb) · [📖 커리큘럼](#️-12강-커리큘럼) · [🐛 이슈 리포트](../../issues)
 
-## 🗂️ 강의 목차
-
-| 강 | 주제 | 실습 | Colab |
-|---|---|---|---|
-| [01](./labs/01-branding/) | 브랜딩 & 상담 준비 | [실습 노트](./labs/01-branding/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/01_branding.ipynb) |
-| [02](./labs/02-counseling/) | 상담 브리핑 자동화 | [실습 노트](./labs/02-counseling/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/02_counseling.ipynb) |
-| [03](./labs/03-level-test/) | 레벨테스트 자동화 | [실습 노트](./labs/03-level-test/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/03_level_test.ipynb) |
-| [04](./labs/04-feedback/) | AI 피드백 시스템 | [실습 노트](./labs/04-feedback/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/04_feedback.ipynb) |
-| [05](./labs/05-exam-prep/) | 시험 대비 패키지 | [실습 노트](./labs/05-exam-prep/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/05_exam_prep.ipynb) |
-| [06](./labs/06-risk-radar/) | 성적 분석 & 위험 감지 | [실습 노트](./labs/06-risk-radar/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/06_risk_radar.ipynb) |
-| [07](./labs/07-re-enroll/) | 퇴원생 관리 & 재등록 | [실습 노트](./labs/07-re-enroll/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/07_re_enroll.ipynb) |
-| [08](./labs/08-marketing/) | 마케팅 자동화 | [실습 노트](./labs/08-marketing/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/08_marketing.ipynb) |
-| [09](./labs/09-class-standard/) | 수업 계획 & 강사 매뉴얼 | [실습 노트](./labs/09-class-standard/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/09_class_standard.ipynb) |
-| [10](./labs/10-calendar/) | 연간 운영 캘린더 | [실습 노트](./labs/10-calendar/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/10_calendar.ipynb) |
-| [11](./labs/11-ai-compass/) | AI 역량 진단 & 성장 | [실습 노트](./labs/11-ai-compass/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/11_ai_compass.ipynb) |
-| [12](./labs/12-cockpit/) | 통합 대시보드 | [실습 노트](./labs/12-cockpit/README.md) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/12_cockpit.ipynb) |
+</div>
 
 ---
 
-## 🚀 시작하기
+## 🧠 Philosophy — "원장의 시간을 되돌려준다"
 
-### 1단계: Gemini API 키 발급
+영어학원 운장의 하루는 **문서와의 전쟁**이다.
+상담자료, 성적 리포트, SNS 게시물, 재등록 안내문... 매번 처음부터 작성한다.
 
-1. [Google AI Studio](https://aistudio.google.com/) 접속
-2. **Get API Key** → **Create API Key** 클릭
-3. 발급된 키를 안전한 곳에 저장
+> *"좋은 교육을 하고 싶은데, 서류에 치인다."*
+> CEDU는 그 서류를 AI에게 넘긴다. 단, **프롬프트 한 줄**로.
 
-### 2단계: 실습 방법 선택
-
-| 방법 | 난이도 | 설명 |
-|---|---|---|
-| 📋 **실습 노트 따라하기** | ⭐ | 각 강의 `/labs/` 폴더의 프롬프트를 Gemini에 복사-붙여넣기 |
-| 📓 **Colab 노트북** | ⭐⭐ | Python 코드로 Gemini API를 직접 호출하며 실습 |
-
-### 3단계: 순서대로 진행
-
-1강부터 12강까지 순서대로 진행하면 **학원 운영 전체 시스템**이 완성됩니다.
-
----
-
-## 📓 Colab 노트북 사용법
-
-### 방법 A: GitHub에서 바로 열기 (가장 간단! ⭐)
-
-위 강의 목차표의 **Colab 뱃지**를 클릭하면 바로 노트북이 열립니다.
-
-또는 브라우저에서 아래 URL로 직접 접속:
-```
-https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/01_branding.ipynb
-```
-
-### 방법 B: Colab 사이트에서 GitHub 연결
-
-1. [colab.research.google.com](https://colab.research.google.com/) 접속
-2. **파일** → **노트북 열기** → **GitHub** 탭 클릭
-3. URL 입력: `Reasonofmoon/cedu-1`
-4. 노트북 목록에서 원하는 파일 클릭
-
-### 🔑 API 키 안전하게 저장하기 (Colab Secrets — 처음 1번만)
-
-> ⚠️ API 키를 코드에 직접 붙여넣으면 보안 위험! **Colab Secrets**를 사용하세요.
-
-1. Colab 노트북을 연 상태에서 왼쪽 사이드바의 **🔑 (열쇠 아이콘)** 클릭
-2. **+ 새 보안 비밀 추가** 클릭
-3. **이름:** `GEMINI_API_KEY`
-4. **값:** Google AI Studio에서 복사한 API Key 붙여넣기
-5. **노트북 액세스** 토글을 **ON**으로 설정
-6. ✅ 완료! 이후 모든 노트북에서 자동으로 키를 불러옵니다
-
-### ▶️ 노트북 실행 순서
+| 기준 | 기존 방식 | CEDU AI Masterclass |
+|------|-----------|---------------------|
+| **브랜드 슬로건** | 마케팅 회사 의뢰 → 수십만 원 | Gemini에 RTF+C 입력 → **30초** |
+| **학생 피드백** | 선생님이 1명씩 수작업 | Python 반복문 → **전원 일괄 생성** |
+| **성적 분석** | 엑셀 수동 작업 | Colab + matplotlib → **자동 차트** |
+| **재등록 안내** | 매달 새로 작성 | 개인화 메시지 → **배치 자동화** |
+| **통합 대시보드** | 파일 여기저기 | 12강 결과물 → **하나의 Cockpit** |
 
 ```
-Step 1: 위 Colab 뱃지 클릭 → 노트북 열림
-Step 2: 첫 번째 코드 셀 ▶️ 실행 → API 설정 + 라이브러리 설치
-Step 3: ✏️ 학원 정보 셀 수정 (학원명, 위치, 대상 등)
-Step 4: 나머지 셀 순서대로 ▶️ 실행
-Step 5: 💾 마지막 셀 → 결과 파일 자동 다운로드
-```
+CEDU Learning Pipeline:
 
-> 💡 **꿀팁:** `런타임` → `모두 실행`을 누르면 전체 셀이 한 번에 실행됩니다!
-
-### 🔥 특별 노트북 안내
-
-| 강 | 사용 라이브러리 | 하이라이트 |
-|---|---|---|
-| 4강 피드백 | `pandas` | 5명 학생 데이터 배치 처리 — 반복문으로 전원 피드백 자동 생성 |
-| 6강 성적분석 | `matplotlib` | 성적 추이 라인 차트 (🔴하락 🟢상승 자동 색상) + AI 리포트 |
-| 11강 역량진단 | `numpy` + `matplotlib` | 6개 영역 레이더 차트 시각화 + 90일 성장 로드맵 |
-
----
-
-## 📚 연결된 과정
-
-| 과정 | 설명 | 레포 |
-|---|---|---|
-| 📙 중급 과정 | "AI에게 앱을 시키다" | *Coming Soon* |
-| 📕 고급 과정 | "AI로 제국을 세우다" | *Coming Soon* |
-| 📖 사과의 무게 | 이 과정의 "왜"를 다루는 책 | [weight-of-one-apple](https://github.com/Reasonofmoon/weight-of-one-apple) |
-
----
-
-## 🔧 프롬프트 프레임워크: RTF+C
-
-이 과정의 모든 프롬프트는 **RTF+C** 구조를 따릅니다:
-
-```
-R (Role)       — AI의 역할을 설정합니다
-T (Task)       — 구체적인 작업을 지시합니다
-F (Format)     — 출력 형식을 통제합니다
-C (Constraint) — 제약 조건을 설정합니다
-```
-
-**예시:**
-```
-너는 영어학원 10년 경력의 마케팅 전문가야. (R)
-우리 학원의 브랜드 슬로건 5개를 만들어줘. (T)
-각 슬로건은 10자 이내로, 표 형태로 정리해줘. (F)
-과장하지 말고 실현 가능한 약속만 담아줘. (C)
+  [원장님의 학원 정보 입력]
+          ↓
+  ┌────────────────────────────┐
+  │     RTF+C 프레임워크        │
+  │  Role → Task → Format     │
+  │      → Constraint          │
+  └───────────┬────────────────┘
+              ↓
+  ┌──────────────────────────────────────────────────┐
+  │                Gemini 2.5 Flash API              │
+  └──────────────────────────────────────────────────┘
+              ↓
+  ┌───────┐ ┌───────┐ ┌────────┐ ┌────────┐ ┌──────────┐
+  │브랜딩  │ │상담   │ │ 시험지  │ │ 피드백  │ │성적 분석  │
+  │Lecture│ │Lecture│ │Lecture │ │Lecture │ │ Lecture  │
+  │ 01    │ │ 02~03 │ │  05    │ │  04    │ │   06     │
+  └───────┘ └───────┘ └────────┘ └────────┘ └──────────┘
+              ↓
+  📊 통합 Cockpit Dashboard (12강)
 ```
 
 ---
 
-## 👨‍🏫 강의자
+## 🔬 핵심 프레임워크 — RTF+C
 
-**ConnectEdu × Reason of Moon**
+이 과정의 모든 프롬프트는 **RTF+C** 4-레이어 구조를 따른다:
 
-## 📄 License
+```
+R  (Role)        — "너는 영어학원 10년 경력의 마케팅 전문가야."
+T  (Task)        — "우리 학원 브랜드 슬로건 5개를 만들어줘."
+F  (Format)      — "각 슬로건은 10자 이내로, 표 형태로 정리해줘."
+C  (Constraint)  — "과장하지 말고 실현 가능한 약속만 담아줘."
+```
 
-MIT License — 교육 목적 자유 사용
+> **Wow**: RTF+C 한 번 익히면 **어떤 AI 도구**에도 적용 가능 — Gemini, Claude, ChatGPT 모두 동작
+
+---
+
+## ⚙️ 12강 커리큘럼
+
+### Module A · 학원 브랜딩 & 학생 유치 (1~3강)
+
+| 강 | 주제 | 핵심 출력물 | Colab |
+|----|------|------------|-------|
+| 01 | 브랜딩 & 상담 준비 | 브랜드 슬로건 · 상담 질문 리스트 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/01_branding.ipynb) |
+| 02 | 상담 브리핑 자동화 | 학부모 상담 스크립트 · 퍼스널라이징 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/02_counseling.ipynb) |
+| 03 | 레벨테스트 자동화 | 수준별 테스트 문항 · 결과 분류표 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/03_level_test.ipynb) |
+
+> **Wow**: 레벨테스트 30문항이 **2분** 만에 생성 — 직접 출력 즉시 사용
+
+### Module B · 수업 & 피드백 자동화 (4~6강)
+
+| 강 | 주제 | 핵심 출력물 | Colab |
+|----|------|------------|-------|
+| 04 | AI 피드백 시스템 | 학생 5명 배치 피드백 · `pandas` 자동화 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/04_feedback.ipynb) |
+| 05 | 시험 대비 패키지 | 수능·모의고사 대비 문제지 자동 생성 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/05_exam_prep.ipynb) |
+| 06 | 성적 분석 & 위험 감지 | `matplotlib` 라인 차트 · 하락생 자동 탐지 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/06_risk_radar.ipynb) |
+
+> **Wow**: 06강 — 성적 하락 학생을 AI가 자동 감지 → 담임 교사에게 알림 문자 초안까지 생성
+
+### Module C · 운영 & 마케팅 자동화 (7~10강)
+
+| 강 | 주제 | 핵심 출력물 | Colab |
+|----|------|------------|-------|
+| 07 | 퇴원생 관리 & 재등록 | 개인화 재등록 안내문 · 퇴원 원인 분석 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/07_re_enroll.ipynb) |
+| 08 | 마케팅 자동화 | SNS 게시물 · 카카오 채널 메시지 템플릿 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/08_marketing.ipynb) |
+| 09 | 수업 계획 & 강사 매뉴얼 | 주간 수업 계획서 · 강사 표준 매뉴얼 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/09_class_standard.ipynb) |
+| 10 | 연간 운영 캘린더 | 12개월 이벤트·시험·모집 일정 자동 편성 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/10_calendar.ipynb) |
+
+### Module D · AI 성장 & 통합 시스템 (11~12강)
+
+| 강 | 주제 | 핵심 출력물 | Colab |
+|----|------|------------|-------|
+| 11 | AI 역량 진단 & 성장 | `numpy` 레이더 차트 · 90일 성장 로드맵 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/11_ai_compass.ipynb) |
+| 12 | 통합 대시보드 Cockpit | 1~11강 결과물 통합 · 학원 운영 전체 요약 | [![Open](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Reasonofmoon/cedu-1/blob/main/notebooks/12_cockpit.ipynb) |
+
+> **Wow**: 12강 Cockpit — 12개 자동화 결과물이 **하나의 대시보드**로 통합
+
+---
+
+## 🎯 수준별 활용 가이드
+
+### 🟢 Starter — "5분 안에 첫 AI 결과물"
+
+```
+Step 1 → Google AI Studio (aistudio.google.com) 접속
+Step 2 → Get API Key → Create API Key 클릭 → 키 복사
+Step 3 → labs/01-branding/ 폴더 → 프롬프트 Gemini에 붙여넣기
+Step 4 → 학원명·위치·대상 수정 후 Enter
+Step 5 → 브랜드 슬로건 5개 즉시 출력 ✅
+```
+
+> 코딩 0줄. 복사-붙여넣기만 할 수 있으면 됩니다.
+
+### 🔵 Professional — "Colab으로 배치 자동화"
+
+```python
+# Colab Secret에 API 키 저장 (1번만)
+# 이름: GEMINI_API_KEY / 값: 발급받은 키
+
+# 그 다음 모든 노트북에서 자동 참조
+from google.colab import userdata
+api_key = userdata.get('GEMINI_API_KEY')
+```
+
+1. 위 Colab 뱃지 클릭 → 노트북 오픈
+2. `런타임` → `모두 실행`
+3. 학원 정보 셀만 수정 → 자동 실행
+4. 마지막 셀 → 결과 파일 자동 다운로드
+
+### 🟣 Enterprise — "12강 전과정 + 연속 과정 연결"
+
+- **cedu-2 (중급)**: "AI에게 앱을 시키다" — No-Code 앱 제작
+- **cedu-3 (고급)**: "AI로 제국을 세우다" — 멀티에이전트 자동화
+- **12강 완주 후**: 학원 운영 AI 시스템 전체 구축 완료
+- **본인 학원 커스텀**: `shared/` 폴더의 공용 데이터를 실제 학원 DB로 교체
+
+---
+
+## 🔧 확장 우선순위
+
+| 우선순위 | 방법 | 난이도 | 범위 |
+|----------|------|--------|------|
+| **1st** | `labs/` 프롬프트를 내 학원 정보로 교체 | ⭐ | 즉시 실무 적용 |
+| **2nd** | Colab Secrets에 API 키 저장 | ⭐ | 보안 + 재사용 |
+| **3rd** | `notebooks/` 학원 데이터 셀 수정 | ⭐⭐ | 배치 자동화 |
+| **4th** | 6강 `matplotlib` 차트 + 7강 재등록 연동 | ⭐⭐ | 운영 통합 |
+| **5th** | 12강 Cockpit → Google Sheets 연동 | ⭐⭐⭐ | 실시간 대시보드 |
+
+---
+
+## 📂 프로젝트 구조
+
+```
+cedu-1/
+├── notebooks/          ← Google Colab 실행 파일 (12개)
+│   ├── 01_branding.ipynb
+│   ├── 02_counseling.ipynb
+│   ├── ...
+│   └── 12_cockpit.ipynb
+├── labs/               ← 강의별 프롬프트 + 실습 가이드
+│   ├── 01-branding/
+│   │   └── README.md   ← 복사-붙여넣기용 프롬프트 모음
+│   ├── 02-counseling/
+│   └── ... (총 12개 강의 폴더)
+└── shared/             ← 공용 샘플 데이터 (학생 CSV 등)
+```
+
+---
+
+## 🌐 연결된 과정
+
+| 과정 | 슬로건 | 레포 |
+|------|--------|------|
+| 📙 **cedu-1** 기초 | "AI에게 글을 시키다" | **현재 과정** |
+| 📘 **cedu-2** 중급 | "AI에게 앱을 시키다" | [cedu-2](https://github.com/Reasonofmoon/cedu-2) |
+| 📕 **cedu-3** 고급 | "AI로 제국을 세우다" | [cedu-3](https://github.com/Reasonofmoon/cedu-3) |
+| 📖 **사과의 무게** | 이 과정의 "왜"를 다루는 책 | [weight-of-one-apple](https://github.com/Reasonofmoon/weight-of-one-apple) |
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [ConnectEdu × Reasonofmoon](https://github.com/Reasonofmoon)**  
+*영어학원 원장을 위한 AI 실전 교육 · "코딩보다 원리가 먼저다"*
+
+</div>
