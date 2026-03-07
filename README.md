@@ -206,7 +206,7 @@ cedu-1/
 
 <div align="center">
 
-**Made with ❤️ by [ConnectEdu × Reasonofmoon](https://github.com/Reasonofmoon)**  
+**Prepared by [Reasonofmoon](https://github.com/Reasonofmoon)**  
 *영어학원 원장을 위한 AI 실전 교육 · "코딩보다 원리가 먼저다"*
 
 </div>
