@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 🎓 CEDU AI Masterclass — 기초 과정
 
@@ -210,3 +210,13 @@ cedu-1/
 *영어학원 원장을 위한 AI 실전 교육 · "코딩보다 원리가 먼저다"*
 
 </div>
+---
+
+## Shared Data & Release
+
+- Shared repository: [CEDU-data](https://github.com/Reasonofmoon/CEDU-data)
+- Shared docs: 공통 운영 문서, 최신 AI 도구 가이드, 자산 생성 스크립트
+- Current BKIT release: `CEDU BKIT 2026.03 R1`
+- Current Git tag: `v2026.03-bkit.1`
+- Release standard: [RELEASE_BKIT.md](https://github.com/Reasonofmoon/CEDU-data/blob/main/RELEASE_BKIT.md)
+
